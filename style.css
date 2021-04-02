@@ -10,34 +10,31 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 30vh;
-    background-color: #8FD8D8;
+    background-color: #C8ECEC;
     font-family: 'Roboto', sans-serif;
 }
 
 .container h3 {
-    font-size: 35px;
+    font-size: 40px;
     text-align: center;
 }
 
 .weather-img {
-    width:40px;
-    height:40px;
+    width:35px;
+    height:35px;
 }
 
-#form .city-name {
-    width: 280px;
-    height: 28px;
+.form .city-name {
+    width: 290px;
+    height: 30px;
     padding: 10px;
     margin:10px;
     border-radius: 5px;
     border: none;
+    background-color: #DCDCDC;
 }
 
-form .city-name:hover {
-    border: 2px solid #0000FF;
-}
-
-form .city-name:active {
+.form .city-name:hover {
     border: 2px solid #0000FF;
 }
 
@@ -49,9 +46,38 @@ button {
     border-radius: 5px;
 }
 
+.visited {
+    color: #568EC4;
+    font-size: 20px;
+}
+
 .information-div {
     display: inline-block;
     border: 1px solid #000;
-    margin: 5px;
-    padding:10px;
+    border-radius: 5px;
+    margin: 8px;
+    padding: 2px 24px;
+    background-color: #A2DFDF;
+    color: #000;
+}
+
+.information-div p {
+    font-size: 20px;
+}
+
+.super {
+    vertical-align: super;
+    font-size: 18px;
+    padding-top: 2px;
+}
+
+.information-div .cityName {
+    display: inline-block;
+}
+
+.information-div .country {
+    display: inline-block;
+    padding: 4px;
+    background-color: #568EC4;
+    border-radius: 50%;
 }
