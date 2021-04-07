@@ -49,11 +49,24 @@ button {
 .visited {
     color: #568EC4;
     font-size: 20px;
+    text-align: center;
 }
 
 .result {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 600px) {
+    .result {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width:250px) {
+    .result {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 .information-div {
@@ -62,9 +75,14 @@ button {
     border-radius: 5px;
     margin: 8px;
     padding: 2px 24px;
-    background-color: #A2DFDF;
+    /* background-color: #A2DFDF; */
+    background-color: white;
     color: #000;
 }
+
+/* @media (max-width:250px) {
+    
+} */
 
 .information-div p {
     font-size: 20px;
