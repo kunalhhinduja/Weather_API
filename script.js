@@ -15,7 +15,17 @@ async function findWeather(e) {
     e.preventDefault();
 
     let str = cityName.value;
-    let city = str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
+    let city;
+
+    if(str.length == 0) 
+    {
+        alert('Enter city name to get results!!');
+
+    }
+    else 
+    {
+        city = str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
+    }
 
     if(checkedCities.includes(city)) 
     {

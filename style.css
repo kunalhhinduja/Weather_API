@@ -75,14 +75,9 @@ button {
     border-radius: 5px;
     margin: 8px;
     padding: 2px 24px;
-    /* background-color: #A2DFDF; */
-    background-color: white;
+    background-color: #A2DFDF;
     color: #000;
 }
-
-/* @media (max-width:250px) {
-    
-} */
 
 .information-div p {
     font-size: 20px;
