@@ -57,6 +57,22 @@ button {
     grid-template-columns: repeat(3, 1fr);
 }
 
+
+
+.information-div {
+    display: inline-block;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin: 8px;
+    padding: 2px 24px;
+    background-color: #A2DFDF;
+    color: #000;
+}
+
+.information-div p {
+    font-size: 20px;
+}
+
 @media (max-width: 600px) {
     .result {
         grid-template-columns: repeat(2, 1fr);
@@ -77,20 +93,6 @@ button {
         font-size: 10px;
         padding: 0px 10px;
     }
-}
-
-.information-div {
-    display: inline-block;
-    border: 1px solid #000;
-    border-radius: 5px;
-    margin: 8px;
-    padding: 2px 24px;
-    background-color: #A2DFDF;
-    color: #000;
-}
-
-.information-div p {
-    font-size: 20px;
 }
 
 .super {
