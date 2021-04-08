@@ -67,6 +67,10 @@ button {
     .result {
         grid-template-columns: repeat(1, 1fr);
     }
+
+    .information-div {
+        font-size: 15px;
+    }
 }
 
 .information-div {
