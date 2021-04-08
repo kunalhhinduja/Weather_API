@@ -61,6 +61,11 @@ button {
     .result {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .information-div {
+        font-size: 10px;
+        padding: 0px 24px;
+    }
 }
 
 @media (max-width:250px) {
@@ -70,6 +75,7 @@ button {
 
     .information-div {
         font-size: 10px;
+        padding: 0px 24px;
     }
 }
 
