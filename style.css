@@ -89,7 +89,7 @@ button {
     }
 }
 
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:450px) {
     .result {
         grid-template-columns: repeat(1, 1fr);
     }
